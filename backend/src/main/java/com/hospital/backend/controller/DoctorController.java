@@ -18,7 +18,7 @@ import com.hospital.backend.entity.Doctor;
 
 @RestController
 @RequestMapping("/api/doctor")
-@CrossOrigin(origins = "http://localhost:3000")
+// @CrossOrigin(origins = "http://localhost:3000")
 @PreAuthorize("hasRole('DOCTOR')")
 public class DoctorController {
 
