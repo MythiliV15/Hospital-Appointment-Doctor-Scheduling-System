@@ -66,7 +66,8 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(List.of(
                 "http://localhost:3000",
-                "https://hospital-appointment-doctor-schedul.vercel.app"
+                "https://hospital-appointment-doctor-scheduling-system.vercel.app",
+                "https://hospital-appointment-doctor-scheduling-system-3rwbd83z7.vercel.app"
         ));
 
         configuration.setAllowedMethods(List.of(
